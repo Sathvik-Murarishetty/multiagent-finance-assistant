@@ -184,11 +184,7 @@ async def answer(request: Request):
         return {
             "query": transcript,
             "answer": "MCP data missing — cannot run RAG pipeline."
-        }
-
-    from agents.retriever.loader import load_and_chunk_mcp_data
-    from agents.retriever.embedder import embed_chunks
-    from agents.retriever.faiss_index import build_faiss_index
+        }    
 
     chunks = load_and_chunk_mcp_data(mcp_data)
     embedded = embed_chunks(chunks)
