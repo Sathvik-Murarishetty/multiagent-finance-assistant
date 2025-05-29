@@ -9,6 +9,8 @@ pydub
 audio_recorder_streamlit
 soundfile
 ffmpeg-python
+faster-whisper
+openai-whisper
 
 # LLM + RAG
 openai
