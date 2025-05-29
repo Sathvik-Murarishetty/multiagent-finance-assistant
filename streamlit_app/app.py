@@ -1,7 +1,15 @@
 import streamlit as st
 from audio_recorder_streamlit import audio_recorder
 import requests, base64, time, threading
+import os
+from dotenv import load_dotenv
 
+load_dotenv()
+
+FASTAPI_HOST = os.getenv("FASTAPI_HOST")
+TRANSCRIBE_URL = f"{FASTAPI_HOST}/transcribe/"
+MCP_URL        = f"{FASTAPI_HOST}/mcp/"
+ANSWER_URL     = f"{FASTAPI_HOST}/answer/"
 
 TRANSCRIBE_URL = "http://localhost:8000/transcribe/"
 MCP_URL        = "http://localhost:8000/mcp/"

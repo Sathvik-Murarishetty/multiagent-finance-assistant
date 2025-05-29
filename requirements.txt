@@ -1,0 +1,42 @@
+# Core Frameworks
+fastapi
+uvicorn[standard]
+streamlit
+
+# Audio
+gtts
+pydub
+audio_recorder_streamlit
+soundfile
+ffmpeg-python
+
+# LLM + RAG
+openai
+requests
+python-dotenv
+transformers
+sentence-transformers
+
+# Vector DB
+faiss-cpu
+
+# NLP + Sentiment
+torch
+scikit-learn
+pandas
+numpy
+
+# FinBERT / HuggingFace API
+huggingface_hub
+
+# Finance APIs & Scraping
+yfinance
+beautifulsoup4
+lxml
+
+# Async / Utility
+aiohttp
+tqdm
+
+# Deployment
+httpx
