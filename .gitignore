@@ -14,8 +14,3 @@ env/
 
 
 .vscode/
-
-data/vector_index/
-*.pkl
-*.faiss
-*.npy

@@ -1,0 +1,30 @@
+services:
+  - type: web
+    name: veronica-fastapi-backend
+    env: python
+    runtime: python
+    region: oregon
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn orchestrator.main:app --host 0.0.0.0 --port 8000
+    autoDeploy: true
+
+  - type: web
+    name: veronica-streamlit-frontend
+    env: python
+    runtime: python
+    region: oregon
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run streamlit.py --server.port 8501 --server.address 0.0.0.0
+    autoDeploy: true
+
+envVars:
+  - key: OPENAI_API_KEY
+    sync: false
+  - key: HUGGINGFACE_API_TOKEN
+    sync: false
+  - key: FASTAPI_HOST
+    value: veronica-fastapi-backend.onrender.com
+  - key: FASTAPI_PORT
+    value: 8000
