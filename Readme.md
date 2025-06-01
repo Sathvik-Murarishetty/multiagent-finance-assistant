@@ -1,4 +1,3 @@
-````markdown
 # 🎙️ Market Analyst AI — Voice-Enabled Financial Assistant
 
 **Markel Analyst AI** (Voice-Enabled Retrieval-Optimized Natural Intelligence for Capital Analysis) is a multi-agent, voice-based financial assistant that provides smart, spoken market briefings based on real-time data and structured document retrieval.
