@@ -33,6 +33,7 @@ The Model uses a **Retrieval-Augmented Generation** pipeline for deep financial 
      - Option chains, sentiment scores, holders
      - News articles using scraping
 4. **Prompt Construction**: Injected into a system prompt:
+   
    ```text
    User Query:
    "Compare Nvidia and AMD for the past 3 months."
@@ -44,7 +45,7 @@ The Model uses a **Retrieval-Augmented Generation** pipeline for deep financial 
    - EPS NVDA: 1.75 vs 1.52 expected
    - EPS AMD: 0.74 vs 0.80 expected
    - Sentiment: Mixed for NVDA, Neutral for AMD
-````
+   ```
 
 5. **LLM Response Generation**:
 
