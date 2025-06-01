@@ -5,7 +5,7 @@
 🔗 [Live Frontend (Streamlit)](https://veronica-streamlit-frontend.onrender.com)
 
 ## Demo Screenshot
-[Demo](./full screen shot.png)
+[Demo]![VERONICA Demo](./full%20screen%20shot.png)
 ---
 
 ## Features
@@ -84,7 +84,7 @@ pip install -r requirements.txt
 uvicorn orchestrator.main:app --reload --port 8000
 ```
 
-### Frontend (Sreamlit)
+### Frontend (Streamlit)
 
 ```bash
 streamlit run streamlit_app/app.py
