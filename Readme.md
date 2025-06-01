@@ -74,13 +74,18 @@ MCP ensures modular, extensible agent-based data pipelines.
 
 ## How to Run Locally
 
-### 🔧 Backend (FastAPI)
+### Backend (FastAPI)
 
 ```bash
-git clone https://github.com/yourusername/veronica-backend
-cd veronica-backend
+git clone https://github.com/Sathvik-Murarishetty/multiagent-finance-assistant
 pip install -r requirements.txt
-uvicorn orchestrator.main:app --reload
+uvicorn orchestrator.main:app --reload --port 8000
+```
+
+### Frontend (Sreamlit)
+
+```bash
+streamlit run streamlit_app/app.py
 ```
 
 ---
