@@ -5,7 +5,7 @@
 🔗 [Live Frontend (Streamlit)](https://veronica-streamlit-frontend.onrender.com)
 
 ## Demo Screenshot
-![Demo](./full screen shot.png)
+[Demo](./full screen shot.png)
 ---
 
 ## Features
