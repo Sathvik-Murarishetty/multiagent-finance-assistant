@@ -4,8 +4,8 @@
 
 🔗 [Live Frontend (Streamlit)](https://veronica-streamlit-frontend.onrender.com)
 
-## Demo Screenshot
-[Demo]![VERONICA Demo](./full%20screen%20shot.png)
+## App Screenshot
+![Demo](./full%20screen%20shot.png)
 ---
 
 ## Features
