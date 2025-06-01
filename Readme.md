@@ -118,7 +118,7 @@ streamlit run streamlit_app/app.py
 
 > **Sathvik Murarishetty**
 > MIT Bengaluru · Computer Science (2025)
-> [LinkedIn](https://www.linkedin.com/in/sathvikmurarishetty) • [GitHub](https://github.com/Sathvik-Murarishetty)
+> [LinkedIn](https://www.linkedin.com/in/sathvik-murarishetty) • [GitHub](https://github.com/Sathvik-Murarishetty)
 
 ---
 
