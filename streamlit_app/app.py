@@ -11,10 +11,6 @@ TRANSCRIBE_URL = f"{FASTAPI_HOST}/transcribe/"
 MCP_URL        = f"{FASTAPI_HOST}/mcp/"
 ANSWER_URL     = f"{FASTAPI_HOST}/answer/"
 
-TRANSCRIBE_URL = "http://localhost:8000/transcribe/"
-MCP_URL        = "http://localhost:8000/mcp/"
-ANSWER_URL     = "http://localhost:8000/answer/"
-
 st.set_page_config(page_title="V.E.R.O.N.I.C.A", page_icon="🎙️", layout="centered")
 st.title("🎙️ V.E.R.O.N.I.C.A")
 st.caption("Your Voice-Based Financial Assistant")

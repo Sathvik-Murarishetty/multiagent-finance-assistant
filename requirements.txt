@@ -10,17 +10,12 @@ audio_recorder_streamlit
 faster-whisper
 
 # LLM + RAG
-openai
 requests
 python-dotenv
-transformers
 sentence-transformers
 
 # Vector DB
 faiss-cpu
-
-# FinBERT / HuggingFace API
-huggingface_hub
 
 # Finance APIs & Scraping
 yfinance
